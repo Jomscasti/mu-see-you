@@ -18,29 +18,35 @@ MUSEEYOU is a love-centered interactive website built with **HTML**, **CSS**, **
 
 MUSEEYOU/
 │
-├── index.html # Homepage with love timeline and video section
-├── view.html # Detailed view per story card
+├── index.html               # Homepage with Love Line and video section
+├── view.html                # Detailed narrative page for each love card
 │
 ├── assets/
-│ ├── css/
-│ │ └── style.css # Custom styles
-│ ├── js/
-│ │ ├── loveLine.js # Dynamic love cards logic
-│ │ └── view.js # Story rendering and timeline loader
-│ ├── images/
-│ │ ├── logo-white.png
-│ │ ├── img-index.jpg
-│ │ ├── thumbnail.jpg
-│ │ ├── quote.png
-│ │ ├── january.jpg
-│ │ ├── february.jpg
-│ │ ├── ...
-│ │ └── timeline/
-│ │ ├── january/
-│ │ ├── february/
-│ │ └── ...
+│   ├── css/
+│   │   └── style.css        # Custom styles
+│   ├── js/
+│   │   ├── loveLine.js      # Script to load Love Line cards
+│   │   └── view.js          # Script to render story narrative and gallery
+│   ├── images/
+│   │   ├── logo-white.png
+│   │   ├── nav-logo.png
+│   │   ├── img-index.jpg
+│   │   ├── thumbnail.jpg
+│   │   ├── quote.png
+│   │   ├── january.jpg
+│   │   ├── february.jpg
+│   │   ├── march.jpg
+│   │   ├── april.jpg
+│   │   └── timeline/
+│   │       ├── january/
+│   │       │   ├── 01.jpg
+│   │       │   ├── 02.jpg
+│   │       │   └── ...
+│   │       ├── february/
+│   │       ├── march/
+│   │       └── april/
 │
-└── README.md # You're reading it!
+└── README.md                # Project documentation
 
 
 ---
