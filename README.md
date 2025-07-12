@@ -29,6 +29,7 @@ MUSEEYOU is a love-centered interactive website built with **HTML**, **CSS**, **
 - **Interactive Modal**: Custom play button launches embedded YouTube video.
 - **Gallery Timeline**: Explore memories like an exhibit through monthly image folders.
 - **Narrative Rendering**: Each part has a personal narrative loaded dynamically.
+- **Random Quote Generator** – Displays rotating quotes about love, art, and life by famous authors and artists *
 
 ---
 
@@ -39,7 +40,7 @@ MUSEEYOU is a love-centered interactive website built with **HTML**, **CSS**, **
 - JavaScript (Vanilla)
 - Google Fonts
 - Responsive Media Queries
-- Modular Scripts (loveLine.js & view.js)
+- Modular Scripts (loveLine.js, quote.js & view.js)
 
 ---
 
