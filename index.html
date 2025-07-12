@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MUSEEYOU!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/logo-white.png" type="image/x-icon">
+</head>
+
+<body style="background-color: #D98C9B;">
+    <nav class="navbar navbar-expand-lg glass-navbar p-0">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/nav-logo.png" alt="MuseeYou Logo" class="img-fluid" style="height: 60px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Explore</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="generate.html">Random Quotes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="position-relative">
+        <!-- Background Image -->
+        <img src="assets/images/img-index.jpg" class="img-fluid w-100" style="height: 100vh; object-fit: cover;"
+            alt="Hero Background">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50"></div>
+
+        <!-- Text Content -->
+        <div class="position-absolute top-50 start-50 translate-middle text-center text-white w-100">
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-8">
+                        <img src="assets/images/quote.png" class="img-fluid" style="max-height: 200px;" alt="quote">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- What is love? Section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-4 text-center fs-1 fs-md-2">
+                <h1 class="mb-0">What is love?</h1>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center mb-5 p-3">
+                <div class="position-relative w-100" style="max-width: 900px;">
+                    <img src="assets/images/thumbnail.jpg" class="img-fluid rounded w-100" alt="Video Thumbnail"
+                        data-bs-toggle="modal" data-bs-target="#videoModal">
+
+                    <!-- Custom Play Button -->
+                    <button class="btn btn-light rounded-circle position-absolute top-50 start-50 translate-middle"
+                        style="width: 60px; height: 60px; opacity: 0.8;" data-bs-toggle="modal"
+                        data-bs-target="#videoModal">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black"
+                            class="bi bi-play-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M11.596 8.697l-6.363 3.692A.5.5 0 0 1 4 12.01V3.99a.5.5 0 0 1 .77-.424l6.363 3.692a.5.5 0 0 1 0 .848z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content bg-black">
+                <div class="modal-body p-0 position-relative">
+                    <!-- Close Button -->
+                    <button type="button" class="btn-close position-absolute end-0 m-3" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                    <!-- Video Embed -->
+                    <div class="ratio ratio-16x9">
+                        <iframe id="videoPlayer" src="" title="YouTube video player" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- LoveLine Section -->
+    <div class="container-fluid" style="background-color: #800020;">
+        <div class="row">
+            <div class="col text-center text-white py-5 fs-2 fs-md-1">
+                <h1 class="mb-0">The Love Line</h1>
+            </div>
+        </div>
+        <!-- Cards Section -->
+        <div class="container py-5">
+            <div class="row g-4" id="loveCardContainer"></div>
+            <p class="text-center text-white pt-3">A scroll through time — from the first glance to forever. Rewind your
+                love story.</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer mt-auto py-4 text-light mt-2" style="background-color: #9E1B32;">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>About Just MUSEEYOU</h5>
+                    <p>Feel The art. Live the Love</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white text-decoration-underline">Official Website</a></li>
+                        <li><a href="#" class="text-white text-decoration-underline">Youtube</a></li>
+                        <li><a href="#" target="_blank" class="text-white text-decoration-underline">Latest
+                                News</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <h5>Connect with Us</h5>
+                    <a href="#" class="footer-link me-2"><img
+                            src="https://img.icons8.com/ios-filled/20/ffffff/facebook.png" alt="Facebook"></a>
+                    <a href="#" class="footer-link me-2"><img
+                            src="https://img.icons8.com/ios-filled/20/ffffff/twitter.png" alt="Twitter"></a>
+                    <a href="#" class="footer-link"><img
+                            src="https://img.icons8.com/ios-filled/20/ffffff/instagram-new.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <hr class="bg-light">
+            <p class="mb-0">© 2025 MUSEEYOU. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/loveLine.js"></script>
+    <script src="assets/js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
