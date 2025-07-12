@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/logo2.png" alt="MUSEEYOU Logo" width="150">
+  <img src="assets/images/logo2.png" alt="MUSEEYOU Logo" width="300">
 </p>
 
 <h1 align="center">MUSEEYOU</h1>
