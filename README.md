@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="assets/images/logo2.png" alt="MUSEEYOU Logo" width="150">
+</p>
+
+<h1 align="center">MUSEEYOU</h1>
+<p align="center"><em>Your personal museum of love, moments, and the art of living.</em></p>
+
 # MUSEEYOU 🎨❤️
 
 **MUSEEYOU** is your personal museum — a digital space that celebrates love, memory, and the art of living. The name blends *Museum*, *See*, and *You*, reflecting the core idea: a space where you see and feel your story unfold like curated art.
@@ -14,42 +21,6 @@ MUSEEYOU is a love-centered interactive website built with **HTML**, **CSS**, **
 
 ---
 
-## 📁 Project Structure
-
-MUSEEYOU/
-│
-├── index.html               # Homepage with Love Line and video section
-├── view.html                # Detailed narrative page for each love card
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css        # Custom styles
-│   ├── js/
-│   │   ├── loveLine.js      # Script to load Love Line cards
-│   │   └── view.js          # Script to render story narrative and gallery
-│   ├── images/
-│   │   ├── logo-white.png
-│   │   ├── nav-logo.png
-│   │   ├── img-index.jpg
-│   │   ├── thumbnail.jpg
-│   │   ├── quote.png
-│   │   ├── january.jpg
-│   │   ├── february.jpg
-│   │   ├── march.jpg
-│   │   ├── april.jpg
-│   │   └── timeline/
-│   │       ├── january/
-│   │       │   ├── 01.jpg
-│   │       │   ├── 02.jpg
-│   │       │   └── ...
-│   │       ├── february/
-│   │       ├── march/
-│   │       └── april/
-│
-└── README.md                # Project documentation
-
-
----
 
 ## 🧠 Features
 
