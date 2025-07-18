@@ -20,7 +20,7 @@ const loveCardsData = {
             part: "Part 3",
             title: "Endless Preservation",
             text: "To care is to promise time.",
-            narrative: "Like the careful restoration of a beloved artwork, love deepens through gentle care and constant attention. It’s in the quiet check-ins, the shared silences, and the unspoken hopes of wanting more days together. True love makes you want to live longer — not just for yourself, but for the one who makes life feel like a masterpiece worth preserving. In every act of concern, we say: I want to see more of your story unfold.",
+            narrative: "Like restoring a cherished piece of art, love grows through kindness and thoughtful presence. It's found in the calm moments, the shared quiet, and the simple wish for more time together. Real love inspires a deeper appreciation for life — not just for your own sake, but because someone has made it feel more meaningful. Every small gesture says: I care about where your story goes next.",
             image: "assets/images/march.jpg",
             folder: "march"
         },
